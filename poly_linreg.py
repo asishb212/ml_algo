@@ -1,3 +1,4 @@
+#use auto_edit_one.csv
 import pandas as pd 
 import numpy as np 
 from sklearn.linear_model import LinearRegression 
