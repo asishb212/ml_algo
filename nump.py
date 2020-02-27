@@ -30,3 +30,12 @@ print(np.sum(arr, axis=0))  # Compute sum of each column;
 print(np.sum(arr, axis=1))  # Compute sum of each row
 arr.transpose()
 fgt = np.empty_like(arr)   # Create an empty matrix with the same shape as arr
+npoints = 20
+slope = 2
+offset = 3
+x = np.arange(npoints)
+y = slope * x + offset + np.random.normal(size=npoints)
+print(y)
+p = np.polyfit(x,y,2) 
+print(p)
+#gives a coefficients of polynomial according to given values 
