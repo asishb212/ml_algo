@@ -44,3 +44,4 @@ plt.show()
 ax1 = sb.distplot(df['price'],color="r", label="Actual Value")
 sb.distplot(val, color="b", label="Fitted Values" , ax=ax1)
 plt.show()
+#you can find r^2 or mean square error for better analysis

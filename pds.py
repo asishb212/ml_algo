@@ -1,6 +1,7 @@
 import pandas as pd 
 import numpy as np 
-
+import seaborn as sb 
+import matplotlib.pyplot as plt 
 #----------DATA LOADING/READING-------------------
 
 path='/home/ashifer/code/datasets/auto/auto.csv'
@@ -92,3 +93,6 @@ bins = np.linspace(min(df["horsepower"]), max(df["horsepower"]), 4)
 group_names = ['Low', 'Medium', 'High']
 df['horsepower-binned'] = pd.cut(df['horsepower'], bins, labels=group_names, include_lowest=True )
 print(df[['horsepower','horsepower-binned']].head(20))
+# use value_counts() to get counts
+count=df["floors"].value_counts()
+print(count)

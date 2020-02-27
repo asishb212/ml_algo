@@ -1,4 +1,3 @@
-#use auto_edit_one.csv here
 import pandas as pd 
 import numpy as np 
 import seaborn as sb 
