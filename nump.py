@@ -39,3 +39,6 @@ print(y)
 p = np.polyfit(x,y,2) 
 print(p)
 #gives a coefficients of polynomial according to given values 
+p = np.poly1d([1, 2, 3])
+print(np.poly1d(p))
+#creates a polynomial
