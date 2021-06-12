@@ -8,3 +8,6 @@ datasets branch has .csv files
 <p>scipy</p>
 <p>numpy</p>
 <p>pandas</p>
+<p>matplotlib</p>
+<p>seaborn</p>
+<p>itertools</p>
