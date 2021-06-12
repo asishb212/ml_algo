@@ -4,7 +4,7 @@ master branch has all .py files
 datasets branch has .csv files
 
 # dependencies
-scikit-learn
-scipy
-numpy
-pandas
+<p>scikit-learn</p>
+<p>scipy</p>
+<p>numpy</p>
+<p>pandas</p>
